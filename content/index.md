@@ -5,15 +5,13 @@ layout: index.njk
 
 ![profile-photo.jpg](/assets/profile-photo.png)
 
-# Early Start
+# Hi. I'm Makayla.
 
-I'm a super simple website template you can start using in minutes! Find me on GitHub at [ai-mama/early-start](https://github.com/ai-mama/early-start).
+This is some placeholder text.
 
-You can change anything on this page.
+## A bit about my work.
 
-## Recent Posts
-
-This optional section shows recent notes published using Collected Notes. Read more about using Collected Notes for content management [here](/collected-notes-cms/).
+This is also some placeholder text.
 
 {% for post in posts.posts | limit(5) %}
 [{{post.title}}](/blog/{{post.path}})
